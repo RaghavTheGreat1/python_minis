@@ -9,7 +9,7 @@ number_of_letters = 0
 lines_list = file.readlines()
 
 for line in lines_list:
-    list_of_words = line.split(" ")
+    list_of_words = line.split()
     for word in list_of_words:
         number_of_letters += word.count(letter_to_count)
 
