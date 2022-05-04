@@ -8,6 +8,6 @@ number_of_words = 0
 lines_list = file.readlines()
 
 for line in lines_list:
-    number_of_words += len(line.split(" "))
+    number_of_words += len(line.split())
 
 print(number_of_words)
